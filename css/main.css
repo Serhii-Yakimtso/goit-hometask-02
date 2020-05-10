@@ -1,0 +1,45 @@
+/* LOGO
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+identical to box height
+letter-spacing: 0.03em;
+color: #2196F3; */
+
+/* NAV
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em; */
+
+.section .title {
+  color: var(--main-title-color);
+}
+.section .text {
+  color: var(--primary-text-color);
+}
+
+/* секция "герой" */
+.section.hero {
+  color: #ffffff;
+}
+
+/* секция "особенность" */
+
+/* секция "чем мы занимаемся" */
+.section.work .text {
+  color: #ffffff;
+}
+
+/* секция "наша команда */
+.section.team .link {
+  color: #94969e;
+}
+.section.team .link:hover,
+.section.team .link:focus {
+  color: var(--main-accent-color);
+}
