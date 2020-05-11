@@ -70,11 +70,45 @@ h1 {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-
 .section.team .link {
   color: #94969e;
 }
 .section.team .link:hover,
 .section.team .link:focus {
   color: var(--main-accent-color);
+}
+
+/* Портфолио */
+/* кнопки-фильтр портфолио */
+.portfolio .button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-color);
+}
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: #ffffff;
+  background-color: var(--main-accent-color);
+}
+
+/* список наших работ */
+.portfolio .title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--main-title-color);
+}
+.portfolio .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
